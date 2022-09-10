@@ -1,0 +1,61 @@
+
+.fade-in-text {
+  
+    animation: fadeIn 3s;
+    text-align: center;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+a{
+    text-decoration: none;
+    font-size: 45px;
+}
+
+body{
+    animation: bgcolor infinite 20s; 
+    text-align: center;
+    font-size: 30px;
+}
+
+p{
+    font-size: 28px;
+    text-align: center;
+    margin-right: 150px;
+    margin-left: 150px;
+
+}
+
+h2{
+    font-size: 45px;
+}
+
+@keyframes bgcolor{
+    0%
+    {
+        background: #cd84f1;
+    }
+    20%
+    {
+        background: #fd79a8;
+    }
+    40%
+    {
+        background: #fdcb6e;
+    }
+    60%
+    {
+        background: #32ff7e;
+    }
+    80%
+    {
+        background: #17c0eb;
+    }
+    100%
+    {
+        background: #0984e3;
+    }
+}
